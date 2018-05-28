@@ -1,0 +1,211 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+// MY OWN CLASSES
+.bg-mail {
+  background-image: url("https://www.macgarage.cl/macgarage/assets/mix/bg.jpg")!important;
+  background: url("https://www.macgarage.cl/macgarage/assets/mix/bg.jpg")!important;
+  background-size: cover!important;
+  background-position: bottom!important;
+  background-repeat: no-repeat!important;
+}
+
+.my-lead{
+  color: white;
+  text-align: center;
+  font: {
+    family: 'Saira Extra Condensed', 'Arial Narrow', sans-serif!important;
+    size: 24px!important; 
+    weight: 300;
+  }
+}
+
+.logo-cyberday {
+  width: 90%!important;
+  min-width: 90%!important;
+  max-width: 90%!important;
+  margin: 0;
+  padding: 0;
+}
+
+.guitar-product{
+  width: 100%;
+  height: auto;
+  border: 2px solid rgba(white, 0.25);
+}
+
+.product-title{ 
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font: {
+    family: 'Saira Extra Condensed', 'Arial Narrow', sans-serif!important;
+    size: 16px!important; 
+    weight: 600, bolder!important;
+  }
+  margin-bottom: 0px!important;
+}
+
+.offer-price {
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  font: {
+    family: 'Lato', 'Arial', sans-serif!important;
+    size: 24px!important; 
+    weight: 600;
+  }
+  .iva {
+    font: {
+      family: 'Saira Extra Condensed', 'Arial Narrow', sans-serif !important;
+      size: 16px!important; 
+      weight: 300;
+    }
+    @media #{$mobile}{
+      display: none!important;
+    }
+  }
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.old-price {
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  font: {
+    family: 'Lato', 'Arial' sans-serif!important;
+    size: 16px!important; 
+    weight: 400;
+  }
+}
+
+
+.fix-mobile {
+  .product {
+    @media #{$mobile}{
+      max-width: 50%!important;
+      margin: 0 auto;
+    }
+  }
+}
+
+.action-button{
+  display: inline-block;
+  background-image: url("https://www.macgarage.cl/macgarage/assets/mix/bg-button.png")!important;
+  background: url("https://www.macgarage.cl/macgarage/assets/mix/bg-button.png")!important;
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  height: 48px;
+  width: 200px;
+  line-height: 48px;
+  text-align: center;
+  font: {
+    family: 'Saira Extra Condensed', 'Arial Narrow', sans-serif !important;
+    size: 24px!important; 
+    weight: 800;
+  }
+}
+
+.footer {
+  background-color: black!important;
+  background: black!important;
+  .logo-lyrics {
+    width: 250px!important;
+    @media #{$mobile}{
+      width: 120px!important;
+    }
+  }
+  p {
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    color: white;
+    font: {
+      family: 'Lato', 'Arial', sans-serif!important;
+      size: 12px!important; 
+      weight: 400;
+    }
+  }
+  a {
+    display: inline-block;
+    color: $white;
+    font: {
+      family: 'Lato', 'Arial', sans-serif!important;
+      size: 12px!important; 
+      weight: 400;
+    }
+  }
+  .logo-facebook, .logo-instagram, .location-icon, .tel-icon {
+    height: 18px;
+    display: inline-block;
+    padding: 5px;
+  }
+  .link {
+    display: block;
+    text-align:right!important;
+    margin: 0px;
+    padding: 0px;
+    img {
+      margin-bottom: -10px;
+    }
+  }
+}
